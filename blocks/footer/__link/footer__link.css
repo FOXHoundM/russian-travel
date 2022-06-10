@@ -1,0 +1,17 @@
+.footer__link {
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 18px;
+	transition: opacity 0.9s linear;
+
+	border: 1px solid red;
+}
+
+.footer__link:hover {
+	opacity: 50%;
+}
+
+.footer__link:nth-child(5n) {
+	margin-right: 0;
+}
+

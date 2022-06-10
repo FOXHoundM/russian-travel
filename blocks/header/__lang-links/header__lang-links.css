@@ -1,0 +1,9 @@
+.header__lang-links {
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__lang-links:nth-child(2n) {
+  margin-left: 18px;
+}
