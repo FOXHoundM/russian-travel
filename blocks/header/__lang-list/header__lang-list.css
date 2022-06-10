@@ -3,8 +3,6 @@
   margin: 11px 0 0 0;
   padding: 0;
 
-
-  border: 1px solid red;
 }
 @media screen and (max-width: 568px){
 .header__lang-list{

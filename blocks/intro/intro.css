@@ -4,8 +4,6 @@
 	max-width: 690px;
 	min-height: 429px;
 	margin: 0 auto 92px 148px;
-
-	border: 1px solid red;
 }
 /*Screen 1024px*/
 @media screen and (max-width: 1140px) {

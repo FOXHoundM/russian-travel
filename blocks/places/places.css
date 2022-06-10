@@ -2,32 +2,31 @@
 	max-width: 984px;
 	min-height: 100%;
 	margin: 0 148px 92px 148px;
-box-sizing: border-box;
-	border: 1px solid red;
+	box-sizing: border-box;
 }
 
 /*Screen 1024*/
-@media screen and (max-width: 1140px){
-  .places{
-    max-width: 928px;
-    min-height: 100%;
-    margin: 0 48px 92px 48px;
-  }
+@media screen and (max-width: 1140px) {
+	.places {
+		max-width: 928px;
+		min-height: 100%;
+		margin: 0 48px 92px 48px;
+	}
 }
 
 /*Screen 768*/
-@media screen and (max-width: 984px){
-  .places{
-    max-width: 720px;
-    min-height: 100%;
-    margin: 0 24px 90px 24px;
-  }
+@media screen and (max-width: 984px) {
+	.places {
+		max-width: 720px;
+		min-height: 100%;
+		margin: 0 24px 90px 24px;
+	}
 }
 
-@media screen and (max-width: 568px){
-  .places{
-    max-width: 320px;
-    min-height: 100%;
-    margin: 0 0 66px 0;
-  }
+@media screen and (max-width: 568px) {
+	.places {
+		max-width: 320px;
+		min-height: 100%;
+		margin: 0 0 66px 0;
+	}
 }

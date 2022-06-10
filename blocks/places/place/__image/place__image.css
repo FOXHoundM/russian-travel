@@ -4,7 +4,6 @@
 	grid-row: 2;
 	align-self: end;
 	box-sizing: border-box;
-	border: 1px solid red;
 }
 
 @media screen and (max-width: 1140px) {

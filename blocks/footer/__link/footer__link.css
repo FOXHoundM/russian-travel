@@ -3,8 +3,6 @@
 	text-decoration: none;
 	margin-right: 18px;
 	transition: opacity 0.9s linear;
-
-	border: 1px solid red;
 }
 
 .footer__link:hover {
@@ -15,3 +13,8 @@
 	margin-right: 0;
 }
 
+@media screen and (max-width: 984px){
+  .footer__link{
+    margin-right: 5px;
+  }  
+}
