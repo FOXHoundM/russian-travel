@@ -19,7 +19,7 @@
 	.places {
 		max-width: 720px;
 		min-height: 100%;
-		margin: 0 24px 90px 24px;
+		margin: 0 auto 90px auto;
 	}
 }
 
@@ -27,6 +27,6 @@
 	.places {
 		max-width: 320px;
 		min-height: 100%;
-		margin: 0 0 66px 0;
+		margin: 0 auto 66px auto;
 	}
 }
