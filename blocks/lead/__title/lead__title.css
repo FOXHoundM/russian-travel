@@ -2,24 +2,31 @@
 	max-width: 720px;
 	font-weight: 900;
 	font-size: 96px;
-	line-height: 104%;
+	line-height: 100px;
 	text-align: center;
 	margin: 0 0 16px 0;
+	border: 1px;
 }
 
-@media screen and (max-width: 984px){
-  .lead__title{
-    width: 100%;
-    margin: 0 24px 16px 24px;
-    font-size: 80px;
-  }
+@media screen and (max-width: 984px) {
+	.lead__title {
+		margin: 0 auto 16px auto;
+		font-size: 90px;
+	}
 }
+
+/*Пришлось добавить чтоб текст не вышел за границы страницы*/
+@media screen and (max-width: 634px) {
+	.lead__title {
+		font-size: 80px;
+	}
+}
+
 @media screen and (max-width: 568px) {
 	.lead__title {
 		width: 288px;
-		min-height: 88px;
 		font-size: 40px;
 		line-height: 44px;
-		margin: 0 16px 8px 16px;
+		margin: 0 auto 8px auto;
 	}
 }
