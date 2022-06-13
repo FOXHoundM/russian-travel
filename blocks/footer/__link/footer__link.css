@@ -1,11 +1,10 @@
 .footer__link {
 	color: #ffffff;
 	margin-right: 18px;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
 	transition: opacity 0.9s linear;
-
 }
 
 .footer__link:hover {
@@ -16,8 +15,7 @@
 	margin-right: 0;
 }*/
 
-/*@media screen and (max-width: 984px){
-  .footer__link{
-    margin-right: 5px;
-  }
+/*@media screen and (max-width: 584px) {
+	.footer__link {
+	}
 }*/

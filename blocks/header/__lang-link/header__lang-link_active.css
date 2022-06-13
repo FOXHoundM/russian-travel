@@ -1,4 +1,4 @@
-.header__lang-link {
+.header__lang-link_active{
   font-family: "Inter", Arial, sans-serif;
 	text-decoration: none;
 	font-style: normal;
@@ -8,11 +8,11 @@
 	color: inherit;
   margin: 0;
   padding: 0;
-  
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 568px){
-  .header__lang-link{
+  .header__lang-link_active{
     font-size: 18px;
     line-height: 20px;
   }
